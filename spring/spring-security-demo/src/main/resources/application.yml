@@ -1,0 +1,14 @@
+server:
+  port: 1111
+
+logging:
+  level:
+    root: info
+
+scales:
+  security:
+    loginPage: /sys/login/noLogin
+    login: /sys/login/login
+    logout: /sys/login/logout
+    ignoreUrls:
+      - /favicon.ico

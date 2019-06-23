@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.michael</groupId>
+    <artifactId>michael-repositories</artifactId>
+    <version>1.0.0</version>
+    <packaging>pom</packaging>
+    <name>michael-repositories</name>
+    <description>Michael 的代码仓库</description>
+
+    <modules>
+        <module>michael-parent</module>
+        <module>spring</module>
+    </modules>
+</project>
